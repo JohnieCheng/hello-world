@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2024/3/19 21:21
  */
 @RestController
-@RequestMapping
+@RequestMapping("v1")
 public class HelloController {
 
     @GetMapping("/hello")
